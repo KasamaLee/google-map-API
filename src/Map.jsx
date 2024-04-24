@@ -59,7 +59,7 @@ function Map({ viewMode, adminLocation = null, data }) {
     };
 
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: 'AIzaSyCC_tCic6ScwrR9HlXYj7ryLj7uvTLQRpk',
+        googleMapsApiKey: '',
         libraries
     });
 
